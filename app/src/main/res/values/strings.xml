@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name"> </string>
+    <string name="title_activity_splash_sreen">SplashSreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="login">Sign In</string>
+    <string name="register2">Sign Up</string>
+    <string name="descriptionLogo">Logo yard sale</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="register">Dont have an account? Sign up</string>
+    <string name="signIn">Already have an account? Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="manageAccount">Manage your account</string>
+    <string name="email_address">Email address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="image">imagen</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="invitationToLookAtThePokemonApi">Do you want to see an interesting list of pokemons? Press the next button</string>
+
+
+</resources>
