@@ -3,23 +3,20 @@ package com.moa.theiustore.model;
 import java.util.ArrayList;
 
 public class User {
-    private int id;
     private String name;
     private String email;
     private String phone;
     private String password;
-    private ArrayList<Contact> contacts;
 
-    public User(int id, String name, String email, String phone, String password) {
-        this.id = id;
+    public User( String name, String email, String phone, String password) {
         this.name = name;
         this.email = email;
         this.phone = phone;
         this.password = password;
-        this.contacts = new ArrayList<>();
     }
 
-    public User(){}
+    public User(){
+    }
 
     public boolean isNull(){
         return !name.equals("") || !email.equals("") || !phone.equals("") || !password.equals("");
@@ -27,21 +24,8 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        return name.toUpperCase() + ':' +
+                "  Email= " + email + ",  Phone= " + phone;
     }
 
     public String getName() {
@@ -76,10 +60,4 @@ public class User {
         this.password = password;
     }
 
-    public ArrayList<Contact> getContacts() {
-        return contacts;
-    }
-    public void setContacts(ArrayList<Contact> contacts) {
-        this.contacts = contacts;
-    }
 }

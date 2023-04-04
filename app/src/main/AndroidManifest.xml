@@ -23,7 +23,7 @@
             android:name=".UserPanelActivity"
             android:exported="false" />
         <activity
-            android:name=".ContactListActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
